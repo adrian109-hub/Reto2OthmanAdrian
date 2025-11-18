@@ -16,13 +16,13 @@ public class Funciones1 {
 	            opcion=Funciones.dimeEntero("\nEscoge una opción", sc);
 	            switch (opcion) {
 				case 1:
-					n1=Funciones.dimeDouble("dame el valor en millas", sc);
+					n1=Funciones.dimeDouble("dame el valor en millas:", sc);
 					System.out.println(longitudMillas(n1)+" Km");
 					
 					break;
 
 				case 2:
-					n1=Funciones.dimeDouble("dame el valor en kilometros", sc);
+					n1=Funciones.dimeDouble("dame el valor en kilometros:", sc);
 					System.out.println(longitudKilometros(n1)+" Mi");
 					break;
 				case 0:
@@ -59,13 +59,13 @@ public class Funciones1 {
 	            opcion=Funciones.dimeEntero("\nEscoge una opción", sc);
 	            switch (opcion) {
 				case 1:
-					n1=Funciones.dimeDouble("dame el valor en kilogramos", sc);
+					n1=Funciones.dimeDouble("dame el valor en kilogramos:", sc);
 					System.out.println(PesoKilogramos(n1)+" lbs");
 					
 					break;
 
 				case 2:
-					n1=Funciones.dimeDouble("dame el valor en Libras", sc);
+					n1=Funciones.dimeDouble("dame el valor en Libras:", sc);
 					System.out.println(PesoLibras(n1)+" Kg");
 					break;
 				case 0:
