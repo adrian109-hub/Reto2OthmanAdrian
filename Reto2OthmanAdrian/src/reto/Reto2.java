@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class Reto2 {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
+		
+
+=======
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 		int opcion, a, b;
 		do {
@@ -39,5 +43,6 @@ public class Reto2 {
 				break;
 			}
 		} while (!(opcion == 0));
+>>>>>>> branch 'main' of https://github.com/adrian109-hub/Reto2OthmanAdrian.git
 	}
 }
