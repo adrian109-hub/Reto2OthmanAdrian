@@ -9,7 +9,7 @@ public class Reto2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
-		int opcion, a, b;
+		int opcion;
 		do {
 			System.out.println("Elige la operación:");
 			System.out.println("1. Longuitud");
